@@ -1,0 +1,9 @@
+类型判断的几种方式
+
+1、一元运算符 typeOf
+
+2、关系运算符 instanceof
+
+3、constructor 属性
+
+4、prototype属性
