@@ -37,3 +37,13 @@ function dedupe(array) {
 //constructor
 console.log(set.size);
 console.log(set.constructor);
+
+
+let people = {
+  name:'songbo',
+  sex:'man'
+}
+
+
+console.log(people['name']);
+console.log(people.name);
