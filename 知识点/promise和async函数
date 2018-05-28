@@ -1,0 +1,4 @@
+async函数是Generator函数的语法糖，返回值是Promise.
+
+
+Generator函数是分段执行的，yield语句是暂停执行的标记，而next方法可以恢复执行。
