@@ -47,3 +47,4 @@ let people = {
 
 console.log(people['name']);
 console.log(people.name);
+console.log(people);
