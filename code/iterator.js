@@ -1,14 +1,14 @@
-let a = new Array();
-a = [1];
+let array = new Array();
+array = [1];
 
-console.log(a[Symbol.iterator]);
+console.log(array[Symbol.iterator]);
 
 
-a[Symbol.iterator] = function(){
+array[Symbol.iterator] = function(){
   let index = 0;
   return{next(){
 
-    if(index<a.length){
+    if(index<array.length){
         index++
         return {value:'休想遍历我'};
     }else {
@@ -18,10 +18,10 @@ a[Symbol.iterator] = function(){
   }
 }}
 
-let iter = a[Symbol.iterator]();
+let iter = array[Symbol.iterator]();
 console.log(iter.next());
 console.log(iter.next());
 
-for(let one of a){
+for(let one of array){
   console.log(one);
 }
